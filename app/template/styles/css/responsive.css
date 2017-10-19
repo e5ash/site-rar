@@ -1,0 +1,350 @@
+@media screen and (max-width: 1250px) {
+  .container {
+    width: 100%; }
+  .auth-button {
+    margin-left: 120px; }
+  .services__title {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  .services__item {
+    width: 50%;
+    margin-bottom: 10px; }
+  .services__text {
+    max-width: 278px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .about {
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .about__title {
+      padding-top: 0;
+      max-width: 100%;
+      margin-right: 0; }
+    .about__text {
+      width: 100%; }
+    .about__content, .about__advanteges {
+      width: 100%;
+      display: block; }
+    .about__content {
+      margin-bottom: 30px; }
+  .advanteges .row {
+    display: inline; }
+    .advanteges .row:nth-of-type(1) .col:nth-of-type(1) {
+      display: none; }
+  .advanteges .col {
+    width: 33.3333%; }
+  .advanteges__item {
+    border-bottom: none !important;
+    border-right: 1px solid #464646; }
+    .advanteges__item:last-of-type {
+      border-right: 0; }
+  .contacts__wrap {
+    margin-left: -350px; }
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .footer__copy {
+      display: none; }
+    .footer__top .col {
+      width: 33.3333%;
+      margin-right: 0;
+      margin-left: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center; }
+    .footer__address p {
+      margin-left: 0; }
+    .footer__subtitle {
+      margin-bottom: 10px; }
+    .footer__bottom {
+      padding-top: 20px;
+      margin-top: 20px;
+      text-align: center !important; }
+    .footer__nav {
+      width: 50% !important;
+      margin-left: auto;
+      margin-right: auto; }
+    .footer__socials {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+    .footer__socials {
+      margin-top: 30px; }
+  .socials {
+    margin-bottom: 20px !important; } }
+
+@media screen and (max-width: 1250px) {
+  .auth-button {
+    margin-left: 60px; }
+  .nav li {
+    margin-right: 30px; }
+  .specialist {
+    padding-top: 30px;
+    padding-bottom: 20px; }
+    .specialist__middle {
+      width: -webkit-calc(100% - 310px);
+      width: calc(100% - 310px); }
+    .specialist__right {
+      width: 100%;
+      margin-left: 0;
+      border-top: 1px solid #BBBBBB;
+      padding-top: 10px;
+      text-align: center; }
+      .specialist__right p {
+        display: inline; }
+  .blog__title {
+    padding-top: 20px; }
+  .blog__desc {
+    margin-bottom: 15px; }
+  .blog__list {
+    margin-bottom: 0; }
+  .blog__item {
+    width: 50%;
+    margin-bottom: 30px; }
+  .blog__wrap {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (max-width: 1095px) {
+  .panel {
+    position: relative;
+    height: auto;
+    color: #3d3d3d;
+    padding-bottom: 18px; }
+    .panel a {
+      color: #3d3d3d; }
+  .logo, .nav, .auth-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px; }
+  .logo {
+    text-align: center; }
+    .logo p {
+      text-align: left; }
+  .nav {
+    margin-bottom: 15px; }
+    .nav li {
+      display: block;
+      margin-bottom: 10px; }
+      .nav li:last-of-type {
+        margin-bottom: 0; }
+    .nav a[href="#dropdown"] {
+      display: none; }
+    .nav a:after {
+      display: none; }
+    .nav a + ul {
+      position: relative;
+      top: 0 !important;
+      margin-top: 10px;
+      display: block !important; }
+    .nav a img {
+      display: none; }
+  .auth-button {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #3d3d3d; }
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 1px;
+    text-align: center; }
+    .header__title:after {
+      margin-left: auto;
+      margin-right: auto; }
+    .header__text {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 40px; }
+  .page {
+    padding-top: 30px; }
+    .page__title {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      text-align: center; }
+  .share {
+    padding-bottom: 15px; } }
+
+@media screen and (max-width: 910px) {
+  .about {
+    color: #000; }
+    .about__title {
+      text-align: center; }
+    .about__text {
+      display: none; }
+    .about__link {
+      display: none; }
+    .about a {
+      color: #000; }
+      .about a:hover {
+        border-color: #000; }
+      .about a img {
+        display: none; }
+  .advanteges {
+    text-align: center; }
+    .advanteges .col {
+      width: 100%; }
+    .advanteges__head p {
+      color: white;
+      width: -webkit-calc(100% - 60px);
+      width: calc(100% - 60px); }
+    .advanteges__item {
+      height: auto;
+      margin-bottom: 10px; } }
+
+@media screen and (max-width: 850px) {
+  .footer__nav ul {
+    margin-right: 0 !important;
+    width: 100% !important;
+    float: none !important; }
+    .footer__nav ul + ul {
+      margin-top: 10px; } }
+
+@media screen and (max-width: 750px) {
+  .specialist {
+    padding-bottom: 30px; }
+    .specialist__persona {
+      display: block;
+      width: 272px;
+      margin-left: auto;
+      margin-right: auto; }
+    .specialist__middle {
+      display: block;
+      width: 100%;
+      border-top: 1px solid #BBBBBB; }
+    .specialist__quote:before {
+      display: none; }
+    .specialist__right {
+      display: none; }
+    .specialist__button {
+      margin-left: auto;
+      margin-right: auto; }
+  .reviews {
+    padding-bottom: 30px; }
+    .reviews__title {
+      padding-top: 0;
+      margin-bottom: 20px;
+      color: #000; }
+    .reviews__list {
+      margin-top: 0; }
+    .reviews__item {
+      height: auto;
+      color: #000;
+      background: none !important;
+      padding-top: 0; }
+    .reviews .slick-arrow {
+      -webkit-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+              transform: scale(0.5);
+      top: 47%; }
+    .reviews__wrap {
+      max-width: 100%;
+      margin-right: 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      text-align: center; }
+    .reviews__persona:after {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 13px; }
+    .reviews__arrows {
+      position: static; }
+      .reviews__arrows .container {
+        position: static; }
+  .contacts {
+    height: auto; }
+    .contacts__map iframe {
+      height: 300px; }
+    .contacts__title {
+      text-align: center; }
+    .contacts__wrap {
+      position: relative;
+      width: 100%;
+      left: 0;
+      margin-left: 0;
+      top: 0;
+      margin-top: -4px; }
+    .contacts__input, .contacts__button {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 310px; }
+  .footer__title {
+    margin-bottom: 5px; }
+  .footer__top .col {
+    width: 100%;
+    margin-bottom: 15px; }
+    .footer__top .col:last-of-type {
+      margin-bottom: 0; }
+  .footer__nav {
+    width: 100% !important;
+    margin-bottom: 30px; }
+  .footer__socials {
+    margin-top: 0; }
+  .footer__button {
+    width: 100%;
+    display: block;
+    margin: 0 auto 10px !important;
+    max-width: 280px; }
+  .socials {
+    margin-bottom: 10px !important; }
+    .socials li {
+      margin-bottom: 10px; } }
+
+@media screen and (max-width: 660px) {
+  .services {
+    padding-bottom: 40px; }
+    .services__item {
+      width: 100%; }
+      .services__item_last {
+        min-height: 1px;
+        margin-bottom: 0; }
+  .blog__item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .blog__subtitle {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+
+@media screen and (max-width: 540px) {
+  .button {
+    display: block;
+    width: 100% !important;
+    max-width: 280px !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .header__button {
+    margin-bottom: 10px; }
+  .header .button_transparent {
+    color: #000 !important;
+    border-color: white;
+    background: white !important; }
+    .header .button_transparent:hover {
+      background: #e6e6e6 !important;
+      border-color: #e6e6e6 !important; }
+  .reviews__wrap {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .reviews__text {
+    font-size: 13px;
+    line-height: normal; }
+  .reviews .slick-prev {
+    left: -10px; }
+  .reviews .slick-next {
+    right: -10px; } }
+
+@media screen and (max-width: 450px) {
+  .reviews__persona p, .reviews__persona span {
+    display: block; }
+  .reviews__persona span {
+    margin-left: 0; } }
+
+@media screen and (max-width: 350px) {
+  .specialist__name, .specialist__position {
+    left: 0; } }

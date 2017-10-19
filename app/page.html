@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	<!-- Meta -->
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+
+	<!-- Scripts -->
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+
+	<!--[if lt IE 9]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('main');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+			</script>
+	<![endif]-->
+</head>
+<body>
+	<div class="popup" id="popup-auth">
+		<div class="popup__wrap">
+			<div class="popup__title">Вход для слушателей</div>
+			<input type="text" class="popup__input input input_gray" placeholder="Логин">
+			<input type="text" class="popup__input input input_gray" placeholder="Пароль">
+			<div class="popup__row row">
+				<div class="col col-2"><button class="popup__button button button_blue button_block">Войти в систему</button></div>
+				<div class="col col-2"><div class="popup__link"><a href="">Забыли пароль?</a></div></div>
+			</div>
+		</div>
+		<div class="popup__reg"><a href="">Нет аккаунта? Зарегистриуйтесь сейчас</a></div>
+	</div>
+	<div class="panel panel_white">
+		<div class="container row">
+			<div class="header__logo logo col"><a href=""><img src="uploads/logo.png" alt=""></a><p>Русская Академия Ремесел</p></div>
+			<nav class="nav col">
+				<ul>
+					<li><a href="">Курсы и Стоимость</a></li>
+					<li><a href="">Об академии</a></li>
+					<li class="selected"><a href="">Блог</a></li>
+					<li><a href="">Контакты</a></li>
+					<li>
+						<a href="#dropdown">Еще<img src="uploads/icons/arrow-down.svg" alt=""></a>
+						<ul>
+							<li><a href="">Пунк</a></li>
+							<li><a href="">Пунк</a></li>
+							<li><a href="">Пунк</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<a class="auth-button button button_transparent col">Вход для слушателей</a>
+		</div>
+	</div>
+	<main class="main">
+		<div class="page">
+			<div class="container">
+				<div class="page__wrap">
+					<div class="page__title"><h1>H1 Вертикальная интеграция в мире технологий</h1></div>
+					<div class="page__text">asdasd</div>
+					<div class="share">
+						<div class="share__title">Рассказать друзьям</div>
+						<div class="share__list">
+							<ul>
+								<li><a href="" class="vk"><img src="uploads/icons/vk.svg" alt=""></a></li>
+								<li><a href="" class="fb"><img src="uploads/icons/fb.svg" alt=""></a></li>
+								<li><a href="" class="tw"><img src="uploads/icons/tw.svg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__top row">
+				<div class="footer__copy col">
+					<p>&copy 2010-2017</p>
+					<p>Все права защищены.</p>
+				</div>
+				<div class="footer__address col">
+					<div class="footer__title">Адрес:</div>
+					<p>г. Москв, улица Касаткина 3, 5 этаж, 505 офис</p>
+				</div>
+				<div class="footer__email col">
+					<div class="footer__title">Почта:</div>
+					<p><a href="">artkursy.ru@gmail.com</a></p>
+				</div>
+				<div class="footer__phone col">
+					<p><a href="tel:+7(926) 345-0885">+7(926) 345-0885</a></p>
+					<p>На связи с 9:00 до 20:00</p>
+				</div>
+			</div>
+			<div class="footer__bottom row">
+				<div class="footer__nav col">
+					<div class="footer__subtitle">Основные разделы</div>
+					<ul>
+						<li><a href="">Курсы и Стоимость</a></li>
+						<li><a href="">Об академии</a></li>
+						<li><a href="">Блог</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer__nav col">
+					<div class="footer__subtitle">Остальные разделы</div>
+					<div class="clearfix">
+						<ul>
+							<li><a href="">Сведения об образовательной организации</a></li>
+							<li><a href="">Трудоустройство</a></li>
+							<li><a href="">Хостелы и общежития рядом с академией</a></li>
+						</ul>
+						<ul>
+							<li><a href="">Партнеры</a></li>
+							<li><a href="">Заочное обучение</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__socials col">
+					<div class="socials">
+						<ul>
+							<li><a href=""><img src="uploads/icons/vk.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/fb.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/yt.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/tw.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/inst.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/pinta.svg" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="footer__buttons">
+						<a href="" class="footer__button button button_blue">Записаться на курсы</a>
+						<a data-fancybox data-src="#popup-auth" href="javascript:;" class="footer__button button button_transparent">Вход для слушателей</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

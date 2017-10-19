@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	<!-- Meta -->
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+
+	<!-- Scripts -->
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+
+	<!--[if lt IE 9]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('main');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+			</script>
+	<![endif]-->
+</head>
+<body>
+	<div class="popup" id="popup-auth">
+		<div class="popup__wrap">
+			<div class="popup__title">Вход для слушателей</div>
+			<input type="text" class="popup__input input input_gray" placeholder="Логин">
+			<input type="text" class="popup__input input input_gray" placeholder="Пароль">
+			<div class="popup__row row">
+				<div class="col col-2"><button class="popup__button button button_blue button_block">Войти в систему</button></div>
+				<div class="col col-2"><div class="popup__link"><a href="">Забыли пароль?</a></div></div>
+			</div>
+		</div>
+		<div class="popup__reg"><a href="">Нет аккаунта? Зарегистриуйтесь сейчас</a></div>
+	</div>
+	<div class="panel">
+		<div class="container row">
+			<div class="header__logo logo col"><a href=""><img src="uploads/logo.png" alt=""></a><p>Русская Академия Ремесел</p></div>
+			<nav class="nav col">
+				<ul>
+					<li><a href="">Курсы и Стоимость</a></li>
+					<li><a href="">Об академии</a></li>
+					<li class="selected"><a href="">Блог</a></li>
+					<li><a href="">Контакты</a></li>
+					<li>
+						<a href="#dropdown">Еще<svg width="9" height="6" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Canvas" transform="translate(-2610 -38)"><g id="Combined Shape"><use xlink:href="#path0_fill" transform="translate(2610.17 38.1716)" fill="#FFFFFF"/></g></g><defs><path id="path0_fill" fill-rule="evenodd" d="M 4.32837 2.91416L 1.41431 0L 0 1.41422L 4.24268 5.65685L 4.32837 5.57104L 4.41431 5.65685L 8.65698 1.41422L 7.24268 0L 4.32837 2.91416Z"/></defs></svg></a>
+						<ul>
+							<li><a href="">Пунк</a></li>
+							<li><a href="">Пунк</a></li>
+							<li><a href="">Пунк</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<a class="auth-button button button_transparent col">Вход для слушателей</a>
+		</div>
+	</div>
+	<header class="header">
+		<div class="container">
+			<div class="header__wrap">
+				<div class="header__title">Академия Ремесел</div>
+				<div class="header__text">Выбирая между теорией и практикой, мы выбираем практику. Выбирая между думать и делать, мы выбираем думать и делать.</div>
+				<div class="header__buttons">
+					<div class="header__button button button_transparent">Узнать об Академии</div>
+					<div class="header__button button button_blue">Записаться на курсы<img src="uploads/icons/arrow-right.svg" class="arrow-xs"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="services">
+			<div class="container">
+				<div class="services__title title">Направления Обучения</div>
+				<div class="services__list row">
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/1.png" alt=""></div>
+						<div class="services__text">Ювелирное дело</div>
+					</a>
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/2.png" alt=""></div>
+						<div class="services__text">Кузнечное дело</div>
+					</a>
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/3.png" alt=""></div>
+						<div class="services__text">Стекло и керамика</div>
+					</a>
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/4.png" alt=""></div>
+						<div class="services__text">Скульптура, Живопись, Рисунок, Лепка-моделинг</div>
+					</a>
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/5.png" alt=""></div>
+						<div class="services__text">Печное дело</div>
+					</a>
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/6.png" alt=""></div>
+						<div class="services__text">Дерево</div>
+					</a>
+					<a href="#" class="services__item col col-4">
+						<div class="services__img"><img src="uploads/services/2.png" alt=""></div>
+						<div class="services__text">Реставрация</div>
+					</a>
+					<a href="#" class="services__item col col-4 services__item_last">
+						<div class="services__link"><span>Смотреть все курсы и цены<img src="uploads/icons/arrow-bold.svg" alt=""></span></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<div class="container row">
+				<div class="about__content col col-2">
+					<div class="about__title title">Единственная учебная мастерская в РФ с современным оборудованием</div>
+					<div class="about__text">Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа менеджмент.</div>
+					<div class="about__link"><a href=""><span>Узнать больше</span><img src="uploads/icons/arrow-right.svg" alt="" class="arrow-xs"></a></div>
+				</div>
+				<div class="about__advanteges advanteges col col-2">
+					<div class="row">
+						<div class="col col-2"></div>
+						<div class="col col-2">
+							<div class="advanteges__item border-bottom">
+								<div class="advanteges__head">
+									<u><img src="uploads/icons/finger.svg" alt=""></u>
+									<p>Качественное Обучение</p>
+								</div>
+								<div class="advanteges__body">Движение ротора позволяет исключить из рассмотрения курс. Абсолютно твёрдое тело астатично.</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-2">
+							<div class="advanteges__item advanteges__item_gray border-right">
+								<div class="advanteges__head">
+									<u><img src="uploads/icons/instruments.svg" alt=""></u>
+									<p>Оборудованные Мастерские</p>
+								</div>
+								<div class="advanteges__body">Движение ротора позволяет исключить из рассмотрения курс. Абсолютно твёрдое тело астатично.</div>
+							</div>
+						</div>
+						<div class="col col-2">
+							<div class="advanteges__item">
+								<div class="advanteges__head">
+									<u><img src="uploads/icons/doc.svg" alt=""></u>
+									<p>Документ об Образовании</p>
+								</div>
+								<div class="advanteges__body">Движение ротора позволяет исключить из рассмотрения курс. Абсолютно твёрдое тело астатично.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="specialist">
+			<div class="container row">
+				<div class="specialist__persona col">
+					<div class="specialist__img"><img src="uploads/persona.png" alt=""></div>
+					<div class="specialist__name">Олег Николаевич Автайкин</div>
+					<div class="specialist__position">Ректор Русской Академии Ремесел</div>
+				</div>
+				<div class="specialist__middle col">
+					<div class="specialist__quote">Бросайте любимый диван, берите в руки инструмент и начинайте творить собственные гениальные произведения!</div>
+					<div class="specialist__text">
+						<p>Попробовали. На протяжении июля-августа университеты, в которые мы отправили документы, один за другим давали негативные ответы.</p>
+					</div>
+					<a href="" class="specialist__button button button_transparent">Узнать больше об академии</a>
+				</div>
+				<div class="specialist__right col">
+					<div class="specialist__text">
+						<p>Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа менеджмент.</p>
+						<p>На протяжении июля-августа университеты, в которые мы отправили документы, один за другим давали отказы.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="blog">
+			<div class="container">
+				<div class="blog__title title">Свежее в блоге</div>
+				<div class="blog__desc">Анонсы акций, новости, статьи, интервью, видеолекции и много другое</div>
+				<div class="blog__list row">
+					<div class="blog__item col col-4">
+						<div class="blog__wrap">
+							<div class="blog__img"><img src="uploads/blog/1.png" alt=""></div>
+							<div class="blog__subtitle"><a href="">Ассоциация выпускников Русской Академии Ремесел.</a></div>
+							<div class="blog__text">Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа</div>
+						</div>
+					</div>
+					<div class="blog__item col col-4">
+						<div class="blog__wrap">
+							<div class="blog__img"><img src="uploads/blog/2.png" alt=""></div>
+							<div class="blog__subtitle"><a href="">Ассоциация выпускников Русской Академии Ремесел.</a></div>
+							<div class="blog__text">Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа</div>
+						</div>
+					</div>
+					<div class="blog__item col col-4">
+						<div class="blog__wrap">
+							<div class="blog__img"><img src="uploads/blog/3.png" alt=""></div>
+							<div class="blog__subtitle"><a href="">Ассоциация выпускников Русской Академии Ремесел.</a></div>
+							<div class="blog__text">Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа</div>
+						</div>
+					</div>
+					<div class="blog__item col col-4">
+						<div class="blog__wrap">
+							<div class="blog__img"><img src="uploads/blog/mask.png" alt=""></div>
+							<div class="blog__subtitle"><a href="">Ассоциация выпускников Русской Академии Ремесел.</a></div>
+							<div class="blog__text">Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа</div>
+						</div>
+					</div>
+				</div>
+				<a href="" class="blog__button button button_transparent">Больше материалов</a>
+			</div>
+		</div>
+		<div class="reviews">
+			<div class="reviews__title title">Отзывы слушателей</div>
+			<div class="reviews__list">
+				<div class="reviews__item" style="background-image: url('uploads/reviews/1.png')">
+					<div class="container">
+						<div class="reviews__wrap">
+							<div class="reviews__persona"><p>Анастасия Самойлова</p><span>32 года, Юрист</span></div>
+							<div class="reviews__text">
+								<p>Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа менеджмент.</p>
+								<p>Попробовали. На протяжении июля-августа университеты, в которые мы отправили документы, один за другим давали негативные ответы. Для каждого университета, поступающие это знают. И как тяжело воспринимался каждый из отказов. Состоянием на конец августа из 8 университетов осталось 2.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reviews__item" style="background-image: url('uploads/reviews/1.png')">
+					<div class="container">
+						<div class="reviews__wrap">
+							<div class="reviews__persona"><p>Анастасия Самойлова</p><span>32 года, Юрист</span></div>
+							<div class="reviews__text">
+								<p>Мое поступление напоминало остросюжетный фильм – я подал документы в 8 университетов, поскольку решил рискнуть и поменять специальность с журналистики на медиа менеджмент.</p>
+								<p>Попробовали. На протяжении июля-августа университеты, в которые мы отправили документы, один за другим давали негативные ответы. Для каждого университета, поступающие это знают. И как тяжело воспринимался каждый из отказов. Состоянием на конец августа из 8 университетов осталось 2.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews__arrows"><div class="container"></div></div>
+		</div>
+		<div class="contacts">
+			<div class="contacts__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af99cd032a015107ec3a72896ecf49ba38431564f841e48d9dc6fc603d14708bc&amp;lang=ru_RU&amp;scroll=true&amp;source=constructor" width="100%" height="520" frameborder="0"></iframe></div>
+			<div class="contacts__wrap">
+				<div class="contacts__title">Записаться на курсы</div>
+				<input type="text" class="contacts__input input input_gray" placeholder="Ваше имя">
+				<input type="text" class="contacts__input input input_gray" placeholder="Ваш телефон">
+				<button class="contacts__button button button_blue">Отправить сообщение</button>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__top row">
+				<div class="footer__copy col">
+					<p>&copy 2010-2017</p>
+					<p>Все права защищены.</p>
+				</div>
+				<div class="footer__address col">
+					<div class="footer__title">Адрес:</div>
+					<p>г. Москва, улица Касаткина 3, 5 этаж, 505 офис</p>
+				</div>
+				<div class="footer__email col">
+					<div class="footer__title">Почта:</div>
+					<p><a href="">artkursy.ru@gmail.com</a></p>
+				</div>
+				<div class="footer__phone col">
+					<p><a href="tel:+7(926) 345-0885">+7(926) 345-0885</a></p>
+					<p>На связи с 9:00 до 20:00</p>
+				</div>
+			</div>
+			<div class="footer__bottom row">
+				<div class="footer__nav col">
+					<div class="footer__subtitle">Основные разделы</div>
+					<ul>
+						<li><a href="">Курсы и Стоимость</a></li>
+						<li><a href="">Об академии</a></li>
+						<li><a href="">Блог</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer__nav col">
+					<div class="footer__subtitle">Остальные разделы</div>
+					<div class="clearfix">
+						<ul>
+							<li><a href="">Сведения об образовательной организации</a></li>
+							<li><a href="">Трудоустройство</a></li>
+							<li><a href="">Хостелы и общежития рядом с академией</a></li>
+						</ul>
+						<ul>
+							<li><a href="">Партнеры</a></li>
+							<li><a href="">Заочное обучение</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__socials col">
+					<div class="socials">
+						<ul>
+							<li><a href=""><img src="uploads/icons/vk.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/fb.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/yt.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/tw.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/inst.svg" alt=""></a></li>
+							<li><a href=""><img src="uploads/icons/pinta.svg" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="footer__buttons">
+						<a href="" class="footer__button button button_blue">Записаться на курсы</a>
+						<a data-fancybox data-src="#popup-auth" href="javascript:;" class="footer__button button button_transparent">Вход для слушателей</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
